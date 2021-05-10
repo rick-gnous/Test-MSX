@@ -5,6 +5,8 @@
     dw      Start               ; adresse de la fonction de départ
     db      00,00,00,00,00,00   ; bits inutilisés dans notre cas
 
+Message:    db      'Hello World!', 255
+
 Start:
     call    &006F               ; permet de sélectionner le mode de l'écran
     ld      a, 32               ; mettre la taille de l'écran à 32 caractères
@@ -25,6 +27,4 @@ PrintString:
                                 ; à l'écran le caractère est contenu dans hl
     jr      PrintString
     
-Message:    db      'Hello World!', 255
-
     org     &C000               ; alignement de fin de cartouche (pour OpenMSX)
