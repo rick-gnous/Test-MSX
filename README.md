@@ -5,3 +5,5 @@ Le compilateur [VASM](http://sun.hasenbraten.de/vasm/) est utilisé pour l'insta
 ```
 vasmz80_oldstyle hello.asm -chklabels -nocase -DBuildMSX=1 -DBuildMSX_MSX1=1 -Fbin -o hello.rom
 ```
+
+Je m'appuie sur [le tuto de Chibiakumas](https://www.chibiakumas.com/z80/helloworld.php#LessonH3) pour le Hello worl.
