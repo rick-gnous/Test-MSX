@@ -6,4 +6,6 @@ Le compilateur SJASMplus est utilisé afin de compiler les fichiers et [OpenMSX]
 sjasmplus hello.asm --raw=hello.rom
 ```
 
+Il est aussi possible d’utiliser le Makefile avec la commande `make hello`.
+
 Je m'appuie sur [le tuto de Chibiakumas](https://www.chibiakumas.com/z80/helloworld.php#LessonH3) pour le Hello worl.
