@@ -1,10 +1,9 @@
 CC=sjasmplus
-CFLAGS=
-OBJ=hello read_one_key
-
 DOCKER=docker
 
-default: docker
+CFLAGS=
+SRCS    = 	$(wildcard *.asm)
+OBJ		=	$(patsubst %.asm,%,$(SRCS))
 
 all: $(OBJ)
 
