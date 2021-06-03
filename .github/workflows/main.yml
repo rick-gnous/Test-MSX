@@ -25,5 +25,3 @@ jobs:
           fetch-depth: 0
       - name: "🛠️ Build"
         run: make docker
-      - name: "🧹 Clean"
-        run: make clean
